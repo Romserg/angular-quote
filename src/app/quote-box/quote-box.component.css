@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  background: aliceblue;
+}
+.author {
+  position: relative;
+}
+.author:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  border: 1px solid black;
+  width: 20px;
+  margin-left: -25px;
+  color: black;
+  transform: translateY(-50%);
+}
